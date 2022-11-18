@@ -25,29 +25,26 @@
   <div id="root" class="root">
     <div class="root__top-bar">
       <header class="top-bar__header">
-       
-
-        
-
-        
-        <nav class="root__nav-bar">
+       <a class="player-bar-artwork js-artwork">
+        <img class="" src="/static/images/defaults/player_default_album.430223706b14.png" alt="" loading="lazy">
+       </a>
+   
+       <nav class="root__nav-bar">
           <ul class="root__main-menu nav-bar-primary-text">
-       
-            <li>
+         <li>
             <a class="root__main-menu-items">
-              <a href="index2.html">
             <svg height="24" width="24" viewBox="0 0 24 24">
              <path fill="#fff"
                d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 101.414-1.414l-4.344-4.344a9.157 9.157 0 002.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z">
              </path>
-            
             </svg>
             </a>
-          </a>
          </li>
          <li>
-          <a class="root__main-menu-items">            
+          <a class="root__main-menu-items">  
+            <a href="index1.html">          
             <span>Home</span>
+            </a>
           </a>
         </li>
            <li>
@@ -75,10 +72,8 @@
               <span>Futures</span>
             </a>
           </li>
-          
-          </ul>
-
-      </nav>
+        </ul>
+        </nav>
       <div class="root__logo">
         <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="Layer_1" x="0px" y="0px" width="104px" height="40px" viewBox="0 0 708.767 179.332" enable-background="new 0 0 708.767 179.332" xml:space="preserve" sodipodi:version="0.32" inkscape:version="0.46" sodipodi:docname="lastfm_logo.svg" inkscape:output_extension="org.inkscape.output.svg.inkscape"><metadata id="metadata20"><rdf:RDF><cc:Work rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/></cc:Work></rdf:RDF></metadata><defs id="defs18"><inkscape:perspective sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 89.666 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="708.76703 : 89.666 : 1" inkscape:persp3d-origin="354.38351 : 59.777334 : 1" id="perspective22"/></defs><sodipodi:namedview inkscape:window-height="750" inkscape:window-width="1280" inkscape:pageshadow="2" inkscape:pageopacity="0.0" guidetolerance="10.0" gridtolerance="10.0" objecttolerance="10.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" showgrid="false" inkscape:zoom="0.76753006" inkscape:cx="325.30895" inkscape:cy="89.666" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:current-layer="Layer_1"/>
         <title>last.fm</title>
@@ -94,199 +89,288 @@
       </div>
       </header>
     </div>
-
-   
-   
     
-      
-      
-   
-
-
-    <div class="root__main-view">
       <main class="main-view__sections">
         <section>
-          <h2 class="h2-text">Music</h2>
-          <h3 class="h3-text">Popular tracks</h3>
-          <div class="root__divider"></div>
-          <div class="main-view__recently-played-playlists">
-            <div class="main-view__recently-played-item">
-              <img loading="lazy" src="https://u.9111s.ru/uploads/202108/26/31999301c53ca793185f907a675b2dc6.jpg" alt=""
-                class="recently-played__item-img">
-              <div class="recently-played-item__not-image-part playlist-item-primary-text">
-                <a>Знаешь ли ты</a>
-                <div class="author_text"><a>Максим</a></div>
+          <div class="root__main-view">
+            <div class="root__main-spacer">
+              <div class="Search">
+                <form class="search_form">
+                  <input type="text" placeholder="Поиск">
+                  <button type="submit"><div class="image_search">
+                    <svg height="24" width="24" viewBox="0 0 24 24">
+                      <path fill="#fff" d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 101.414-1.414l-4.344-4.344a9.157 9.157 0 002.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z">
+                      </path>
+                     </svg>
+                  </div></button>
+                </form>
               </div>
-            </div>
-            <div class="main-view__recently-played-item">
-              <img loading="lazy" src="https://volosyinform.ru/wp-content/uploads/2020/11/klava-koka-volosy.jpg" alt=""
-                class="recently-played__item-img">
-              <div class="recently-played-item__not-image-part playlist-item-primary-text">
-                <a>Покинула чат</a>
-                <div class="author_text"><a>Клава Кока</a></div>
-              </div>
-            </div>
-            <div class="main-view__recently-played-item">
-              <img loading="lazy" src="https://2ch.life/mu/src/1862115/16536808190070.png" alt=""
-                class="recently-played__item-img">
-              <div class="recently-played-item__not-image-part playlist-item-primary-text">
-                <a>Батарейка</a>
-                <div class="author_text"><a>Жуки</a></div>
-              </div>
-            </div>
-            <div class="main-view__recently-played-item">
-              <img loading="lazy" src="https://tntmusic.ru/media/content/article@2x/2021-11-15_10-59-34__1e4094e4-4603-11ec-8a2e-7dd717299a16.jpg" alt=""
-                class="recently-played__item-img">
-              <div class="recently-played-item__not-image-part playlist-item-primary-text">
-                <a>Солнце Монако</a>
-                <div class="author_text"><a>Люся Чеботина</a></div>
-              </div>
-            </div>
-            <div class="main-view__recently-played-item">
-              <img loading="lazy"
-                src="https://sun9-29.userapi.com/impg/UrEsyspVDUug9cuo1JhbTEIIcSLHjQwig_VqRg/7LWgEA3Ntg8.jpg?size=604x559&quality=96&sign=dd268a40437fe314248785f4e18bcfb3&c_uniq_tag=f2Sd85mSAF_5XZT1Du8TMFLX1heznP8FYNK1yz6CsRw&type=album" alt=""
-                class="recently-played__item-img">
-              <div class="recently-played-item__not-image-part playlist-item-primary-text">
-                <a>Юность</a>
-                <div class="author_text"><a>Dabro</a></div>
-              </div>
-            </div>
-            <div class="main-view__recently-played-item">
-              <img loading="lazy"
-                src="https://cdn.culture.ru/images/48088999-ac73-52ca-98c5-7278ca3ef14c"
-                alt="" class="recently-played__item-img">
-              <div class="recently-played-item__not-image-part playlist-item-primary-text">
-                <a>Цвет настроения синий</a>
-                <div class="author_text"><a>Филипп Киркоров</a></div>
-              </div>
-            </div>
           </div>
         </section>
         <section>
-          <h3 class="h3-text ">Hot right now</h3>
-          <div class="root__divider"></div>
-          <div class="main-view__my-shows">
-           <div class="my-shows__card">
+          <h4 class="h4-text">Search results</h4>
+          <h5 class="h5-text">Tracks</h5>
+          <div class="main-view__recently-played-playlists1">
+            <div class="main-view__recently-played-item">
+              
+              <div class="recently-played-item__not-image-part1 playlist-item-primary-text">
+                  <div>
+                  <button class="play-button">
+                    <svg height="24" width="24" viewBox="0 0 24 24">
+                      <path
+                        d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z">
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+                <img loading="lazy" src="https://tntmusic.ru/media/content/article@2x/2021-11-15_10-59-34__1e4094e4-4603-11ec-8a2e-7dd717299a16.jpg" alt=""
+                class="recently-played__item-img">
+                <a>Главная причина</a>
+                <div class="author_text"><a>Люся Чеботина</a></div>
+                <div class="author_text"><a>3:26</a></div>
+              </div>
+            </div>
+            <div class="main-view__recently-played-item">
+              <div class="recently-played-item__not-image-part1 playlist-item-primary-text">
+               <div>
+                    <button class="play-button">
+                      <svg height="24" width="24" viewBox="0 0 24 24">
+                        <path
+                          d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z">
+                        </path>
+                      </svg>
+                    </button>
+                  </div>
+                  <img loading="lazy" src="https://tntmusic.ru/media/content/article@2x/2021-11-15_10-59-34__1e4094e4-4603-11ec-8a2e-7dd717299a16.jpg" alt=""
+                class="recently-played__item-img">
+                  <a>Главная причина</a>
+                  <div class="author_text"><a>Люся Чеботина</a></div>
+                  <div class="author_text"><a>3:26</a></div>
+              </div>
+            </div>
+            <div class="main-view__recently-played-item">
+              <div class="recently-played-item__not-image-part1 playlist-item-primary-text">
+              <div>
+                    <button class="play-button">
+                      <svg height="24" width="24" viewBox="0 0 24 24">
+                        <path
+                          d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z">
+                        </path>
+                      </svg>
+                    </button>
+                  </div>
+                  <img loading="lazy" src="https://tntmusic.ru/media/content/article@2x/2021-11-15_10-59-34__1e4094e4-4603-11ec-8a2e-7dd717299a16.jpg" alt=""
+                class="recently-played__item-img">
+                  <a>Главная причина</a>
+                  <div class="author_text"><a>Люся Чеботина</a></div>
+                  <div class="author_text"><a>3:26</a></div>
+              </div>
+            </div>
+            <div class="main-view__recently-played-item">
+              <div class="recently-played-item__not-image-part1 playlist-item-primary-text">
+              <div>
+                    <button class="play-button">
+                      <svg height="24" width="24" viewBox="0 0 24 24">
+                        <path
+                          d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z">
+                        </path>
+                      </svg>
+                    </button>
+                  </div>
+                  <img loading="lazy" src="https://tntmusic.ru/media/content/article@2x/2021-11-15_10-59-34__1e4094e4-4603-11ec-8a2e-7dd717299a16.jpg" alt=""
+                class="recently-played__item-img">
+                  <a>Главная причина</a>
+                  <div class="author_text"><a>Люся Чеботина</a></div>
+                  <div class="author_text"><a>3:26</a></div>
+              </div>
+            </div>
+            <div class="main-view__recently-played-item">
+              <div class="recently-played-item__not-image-part1 playlist-item-primary-text">
+               <div>
+                <button class="play-button">
+                  <svg height="24" width="24" viewBox="0 0 24 24">
+                    <path
+                      d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z">
+                    </path>
+                  </svg>
+                </button>
+              </div>
+              <img loading="lazy" src="https://tntmusic.ru/media/content/article@2x/2021-11-15_10-59-34__1e4094e4-4603-11ec-8a2e-7dd717299a16.jpg" alt=""
+                class="recently-played__item-img">
+              <a>Главная причина</a>
+              <div class="author_text"><a>Люся Чеботина</a></div>
+              <div class="author_text"><a>3:26</a></div>
+            </div>
+          </div>
+            <div class="main-view__recently-played-item">
+              <div class="recently-played-item__not-image-part1 playlist-item-primary-text">
+              <div>
+                <button class="play-button">
+                  <svg height="24" width="24" viewBox="0 0 24 24">
+                    <path
+                      d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z">
+                    </path>
+                  </svg>
+                </button>
+              </div>
+              <img loading="lazy" src="https://tntmusic.ru/media/content/article@2x/2021-11-15_10-59-34__1e4094e4-4603-11ec-8a2e-7dd717299a16.jpg" alt=""
+                class="recently-played__item-img">
+              <a>Главная причина</a>
+              <div class="author_text"><a>Люся Чеботина</a></div>
+              <div class="author_text"><a>3:26</a></div>
+            </div>
+          </div>
+          </div>
+        </section>
+        <section>
+          <h5 class="h5-text ">Albums</h5>
+          <div class="main-view__my-shows1">
+            <div class="my-shows__card">
               <div class="card__image-container">
-                <img loading="lazy" src="http://almode.ru/uploads/posts/2021-03/1617044261_12-p-sergei-lazarev-12.jpg" alt=""
-                  class="card__image">
+                <img loading="lazy" src="https://i.scdn.co/image/ab6761610000e5eb6404c342a8b0420a75e47991" alt=""
+                  class="card__image1">
               </div>
               <div class="card__title-container">
-                <div class="title-container__name-of-song">
-                  You are the only one
+                <div class="title-container__name-of-song1">
+                  Believe
                 </div>
-                <span class="title-container__name-of-author">Сергей Лазарев</span>
+                <span class="title-container__name-of-author">Дима Билан</span>
               </div>
             </div>
             <div class="my-shows__card">
               <div class="card__image-container">
-                <img loading="lazy" src="http://almode.ru/uploads/posts/2021-03/1617044261_12-p-sergei-lazarev-12.jpg" alt=""
-                  class="card__image">
+                <img loading="lazy" src="https://i.scdn.co/image/ab6761610000e5eb6404c342a8b0420a75e47991" alt=""
+                  class="card__image1">
               </div>
               <div class="card__title-container">
                 <div class="title-container__name-of-song">
-                  You are the only one
+                  Believe
                 </div>
-                <span class="title-container__name-of-author">Сергей Лазарев</span>
+                <span class="title-container__name-of-author">Дима Билан</span>
               </div>
             </div>
             <div class="my-shows__card">
               <div class="card__image-container">
-                <img loading="lazy" src="http://almode.ru/uploads/posts/2021-03/1617044261_12-p-sergei-lazarev-12.jpg" alt=""
-                  class="card__image">
+                <img loading="lazy" src="https://i.scdn.co/image/ab6761610000e5eb6404c342a8b0420a75e47991" alt=""
+                  class="card__image1">
               </div>
               <div class="card__title-container">
                 <div class="title-container__name-of-song">
-                  You are the only one
+                  Believe
                 </div>
-                <span class="title-container__name-of-author">Сергей Лазарев</span>
+                <span class="title-container__name-of-author">Дима Билан</span>
               </div>
             </div>
             <div class="my-shows__card">
               <div class="card__image-container">
-                <img loading="lazy" src="http://almode.ru/uploads/posts/2021-03/1617044261_12-p-sergei-lazarev-12.jpg" alt=""
-                  class="card__image">
+                <img loading="lazy" src="https://i.scdn.co/image/ab6761610000e5eb6404c342a8b0420a75e47991" alt=""
+                  class="card__image1">
               </div>
               <div class="card__title-container">
                 <div class="title-container__name-of-song">
-                  You are the only one
+                  Believe
                 </div>
-                <span class="title-container__name-of-author">Сергей Лазарев</span>
+                <span class="title-container__name-of-author">Дима Билан</span>
               </div>
             </div>
             <div class="my-shows__card">
               <div class="card__image-container">
-                <img loading="lazy" src="http://almode.ru/uploads/posts/2021-03/1617044261_12-p-sergei-lazarev-12.jpg" alt=""
-                  class="card__image">
+                <img loading="lazy" src="https://i.scdn.co/image/ab6761610000e5eb6404c342a8b0420a75e47991" alt=""
+                  class="card__image1">
               </div>
               <div class="card__title-container">
                 <div class="title-container__name-of-song">
-                  You are the only one
+                  Believe
                 </div>
-                <span class="title-container__name-of-author">Сергей Лазарев</span>
+                <span class="title-container__name-of-author">Дима Билан</span>
               </div>
             </div>
             <div class="my-shows__card">
               <div class="card__image-container">
-                <img loading="lazy" src="http://almode.ru/uploads/posts/2021-03/1617044261_12-p-sergei-lazarev-12.jpg" alt=""
-                  class="card__image">
+                <img loading="lazy" src="https://i.scdn.co/image/ab6761610000e5eb6404c342a8b0420a75e47991" alt=""
+                  class="card__image1">
               </div>
               <div class="card__title-container">
                 <div class="title-container__name-of-song">
-                  You are the only one
+                  Believe
                 </div>
-                <span class="title-container__name-of-author">Сергей Лазарев</span>
+                <span class="title-container__name-of-author">Дима Билан</span>
               </div>
             </div>
             <div class="my-shows__card">
               <div class="card__image-container">
-                <img loading="lazy" src="http://almode.ru/uploads/posts/2021-03/1617044261_12-p-sergei-lazarev-12.jpg" alt=""
-                  class="card__image">
+                <img loading="lazy" src="https://i.scdn.co/image/ab6761610000e5eb6404c342a8b0420a75e47991" alt=""
+                  class="card__image1">
               </div>
               <div class="card__title-container">
                 <div class="title-container__name-of-song">
-                  You are the only one
+                  Believe
                 </div>
-                <span class="title-container__name-of-author">Сергей Лазарев</span>
+                <span class="title-container__name-of-author">Дима Билан</span>
               </div>
             </div>
             <div class="my-shows__card">
               <div class="card__image-container">
-                <img loading="lazy" src="http://almode.ru/uploads/posts/2021-03/1617044261_12-p-sergei-lazarev-12.jpg" alt=""
-                  class="card__image">
+                <img loading="lazy" src="https://i.scdn.co/image/ab6761610000e5eb6404c342a8b0420a75e47991" alt=""
+                  class="card__image1">
               </div>
               <div class="card__title-container">
                 <div class="title-container__name-of-song">
-                  You are the only one
+                  Believe
                 </div>
-                <span class="title-container__name-of-author">Сергей Лазарев</span>
-              </div>
-            </div>
-
-            <div class="my-shows__card">
-              <div class="card__image-container">
-                <img loading="lazy" src="http://almode.ru/uploads/posts/2021-03/1617044261_12-p-sergei-lazarev-12.jpg" alt=""
-                  class="card__image">
-              </div>
-              <div class="card__title-container">
-                <div class="title-container__name-of-song">
-                  You are the only one
-                </div>
-                <span class="title-container__name-of-author">Сергей Лазарев</span>
+                <span class="title-container__name-of-author">Дима Билан</span>
               </div>
             </div>
             <div class="my-shows__card">
               <div class="card__image-container">
-                <img loading="lazy" src="http://almode.ru/uploads/posts/2021-03/1617044261_12-p-sergei-lazarev-12.jpg" alt=""
-                  class="card__image">
+                <img loading="lazy" src="https://i.scdn.co/image/ab6761610000e5eb6404c342a8b0420a75e47991" alt=""
+                  class="card__image1">
               </div>
               <div class="card__title-container">
                 <div class="title-container__name-of-song">
-                  You are the only one
+                  Believe
                 </div>
-                <span class="title-container__name-of-author">Сергей Лазарев</span>
+                <span class="title-container__name-of-author">Дима Билан</span>
               </div>
             </div>
+            <div class="my-shows__card">
+              <div class="card__image-container">
+                <img loading="lazy" src="https://i.scdn.co/image/ab6761610000e5eb6404c342a8b0420a75e47991" alt=""
+                  class="card__image1">
+              </div>
+              <div class="card__title-container">
+                <div class="title-container__name-of-song">
+                  Believe
+                </div>
+                <span class="title-container__name-of-author">Дима Билан</span>
+              </div>
+            </div>
+            <div class="my-shows__card">
+              <div class="card__image-container">
+                <img loading="lazy" src="https://i.scdn.co/image/ab6761610000e5eb6404c342a8b0420a75e47991" alt=""
+                  class="card__image1">
+              </div>
+              <div class="card__title-container">
+                <div class="title-container__name-of-song">
+                  Believe
+                </div>
+                <span class="title-container__name-of-author">Дима Билан</span>
+              </div>
+            </div>
+            <div class="my-shows__card">
+              <div class="card__image-container">
+                <img loading="lazy" src="https://i.scdn.co/image/ab6761610000e5eb6404c342a8b0420a75e47991" alt=""
+                  class="card__image1">
+              </div>
+              <div class="card__title-container">
+                <div class="title-container__name-of-song">
+                  Believe
+                </div>
+                <span class="title-container__name-of-author">Дима Билан</span>
+              </div>
+            </div>
+            </div>
+            <div class="text_more">More albums ></div>
           </div>
         </section>
       </main>
@@ -298,6 +382,7 @@
             <div class="container">
                 <div class="footer-top-row">
                     <div class="footer-top-col">
+                        
                         <ul class="footer-links">
                           <h2 class="footer-heading">Company</h2>
                             <li><a href="/about">About Last.fm</a></li>
@@ -307,13 +392,13 @@
                     </div>
     
                     <div class="footer-top-col">
-                        <ul class="footer-links">
+                       <ul class="footer-links">
                           <h2 class="footer-heading">Help</h2>
                             <li><a href="/about/trackmymusic">Track My Music</a></li>
                             <li><a href="https://support.last.fm/" target="_BLANK">Community Support</a></li>
                             <li><a href="/help/guidelines">Community Guidelines</a></li>
-                            <li><a href="/help/faq" target="_BLANK">Help</a></li>-
-                        </ul>
+                            <li><a href="/help/faq" target="_BLANK">Help</a></li>
+                           </ul>
                     </div>
     
                     <div class="footer-top-col">
@@ -328,11 +413,17 @@
     
                     <div class="footer-top-col">
                         <ul class="footer-links">
-                          <h2 class="footer-heading">Account</h2>                            
-                             <li><a href="/inbox">Inbox</a></li>
-                             <li><a href="/settings">Settings</a></li>
-                             <li><a href="/pro">Last.fm Pro</a></li>
-                         </ul>
+                          <h2 class="footer-heading">Account</h2>
+                                <li><a href="/inbox">Inbox</a></li>
+                                <li><a href="/settings">Settings</a></li>
+                                <li><a href="/pro">Last.fm Pro</a></li>
+                                <li>
+                                    <form method="post" data-require="components/logout-form" action="/logout">
+                                        <input type="hidden" name="csrfmiddlewaretoken" value="iPJH49bGOi3TOU6Dlm9Nex6vwL6UTs0KtLBTuE1C3Vv46EI7XtMKo57k8MBOZWTR">
+                                        <button class="mimic-link">Logout</button>
+                                    </form>
+                                </li>
+                        </ul>
                     </div>
     
                     <div class="footer-top-col">
@@ -347,7 +438,8 @@
                 </div>
             </div>
         </div>
-  
+
+
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
@@ -368,14 +460,12 @@
                                             <button class="mimic-link" name="es" type="submit">Español</button>
                                         </form>
                                 </li>
-                            
                                 <li class="footer-language">
                                     <form class="footer-language-form" action="/i18n/setlang/" method="post">
                                             <input type="hidden" name="language" value="fr">
                                             <button class="mimic-link" name="fr" type="submit">Français</button>
                                         </form>
                                 </li>
-                            
                                 <li class="footer-language">
                                     <form class="footer-language-form" action="/i18n/setlang/" method="post">
                                             <input type="hidden" name="language" value="it">
@@ -406,7 +496,7 @@
                                             <button class="mimic-link" name="ru" type="submit">Русский</button>
                                         </form>
                                 </li>
-                                <li class="footer-language">
+                               <li class="footer-language">
                                         <form class="footer-language-form" action="/i18n/setlang/" method="post">
                                             <input type="hidden" name="language" value="sv">
                                             <button class="mimic-link" name="sv" type="submit">Svenska</button>
@@ -419,7 +509,7 @@
                                         </form>
                                 </li>
                                 <li class="footer-language">
-                                        <form class="footer-language-form" action="/i18n/setlang/" method="post">
+                                    <form class="footer-language-form" action="/i18n/setlang/" method="post">
                                             <input type="hidden" name="language" value="zh">
                                             <button class="mimic-link" name="zh" type="submit">简体中文</button>
                                         </form>
